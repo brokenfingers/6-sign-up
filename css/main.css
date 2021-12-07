@@ -24,20 +24,27 @@ main {
     width: 40%;
     float: left;
     background-color:#514BB1;
+    background-image: url(../img/left.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
+
+    /* height: 450px; */
+
     color: #ffffff;
 }
 
 .main-title {
     font-size: 32px;
     font-weight: normal;
-    background-color: yellow;
+    /* background-color: yellow; */
     display:inline-block;
     width: 100%;
 }
 
 .bottom-links {
     color: #fff;
-    background-color: yellow;
+    /* background-color: yellow; */
     display:inline-block;
     width: 100%;
 }
