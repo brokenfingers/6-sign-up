@@ -1,5 +1,26 @@
 .form {
     display: inline-block;
     width: 100%;
-    background-color: blue;
+    
+}
+
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+label {
+    width: 100%;
+    display:inline-block;
+}
+
+input {
+    width: 100%;
+    display:inline-block;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
 }
