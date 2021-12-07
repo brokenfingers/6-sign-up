@@ -24,6 +24,35 @@ main {
     width: 40%;
     float: left;
     background-color:#514BB1;
+    color: #ffffff;
+}
+
+.main-title {
+    font-size: 32px;
+    font-weight: normal;
+    background-color: yellow;
+    display:inline-block;
+    width: 100%;
+}
+
+.bottom-links {
+    color: #fff;
+    background-color: yellow;
+    display:inline-block;
+    width: 100%;
+}
+
+.bottom-links > .link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.symbol {
+
+}
+
+.main-title {
+    
 }
 
 .right-column{
