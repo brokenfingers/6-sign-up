@@ -1,5 +1,58 @@
 .form {
     display: inline-block;
     width: 100%;
-    background-color: blue;
+    font-size: 17px;
+    color: #777;
+}
+
+.form-row {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.form > .form-row:last-of-type{
+    margin-bottom: 0;
+}
+
+.form-row label {
+    width: 100%;
+    margin-bottom: 5px;
+    display:inline-block;
+}
+
+.form-row input {
+    width: 100%;
+    display:inline-block;
+    font-size: 20px;
+    border: none;
+    border-bottom: #777 solid 1px;
+    padding: 10px 2px;
+
+}
+
+.form input:focus{
+    outline: #777 solid 1px;
+}
+
+.form input::placeholder {
+    color: #777;
+    font-style: italic;
+}
+
+.form span{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.form .form-row a {
+    display: inline-block;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 50px;
+}
+.form .form-row a:hover {
+   
+    text-decoration: underline;
+    
 }
