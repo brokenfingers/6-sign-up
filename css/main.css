@@ -5,12 +5,20 @@ body *{
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.backgroundImg {
+    position: absolute;
+    filter: blur(13px);
+    /* filter: brightness(1.75); */
+    width: 100%;
+    height: 100%;
+}
+
 .container {
     position: absolute;
     display: inline-block;
     top:50%;
     transform: translateY(-50%);
-    
+   
 }
 
 body {
@@ -35,7 +43,7 @@ main {
     background-size: cover;
     
     /* height: 450px; */
-
+    
     position:absolute;
     left: 0;
     top:30px;
