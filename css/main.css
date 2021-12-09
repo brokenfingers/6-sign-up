@@ -7,8 +7,11 @@ body *{
 }
 .backgroundImg {
     position: absolute;
-    filter: blur(13px);
-    /* filter: brightness(1.75); */
+    filter: blur(1rem);
+    background-image: url(../img/left.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     height: 100%;
 }
