@@ -18,7 +18,7 @@ body *{
 }
 body {
     background: rgb(82,33,97);
-    background: linear-gradient(45deg, rgba(82,33,97,1) 0%, rgba(0,159,185,1) 100%);
+    background: linear-gradient(9deg, rgba(82,33,97,1) 0%, rgba(0,159,185,1) 100%);
 
     position: relative;
     height: 100vh;
