@@ -7,7 +7,8 @@ body *{
 }
 .backgroundImg {
     position: absolute;
-    filter: blur(1rem);
+    filter: blur(10px);
+
     background-image: url(../img/left.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -16,7 +17,9 @@ body *{
     height: 100%;
 }
 body {
-    background-color: #84BADC;
+    background: rgb(82,33,97);
+    background: linear-gradient(45deg, rgba(82,33,97,1) 0%, rgba(0,159,185,1) 100%);
+
     position: relative;
     height: 100vh;
 }
